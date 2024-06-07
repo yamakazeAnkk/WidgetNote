@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.AppNote.AppWidget.Container"
+    android:theme="@style/Theme.AppNote.AppWidgetContainer"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appwidget_title"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/appwidget_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="10sp"
+
+        android:textStyle="bold|italic"
+         />
+</LinearLayout>
